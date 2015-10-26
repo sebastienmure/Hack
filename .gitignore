@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# except those
+!.gitignore
+!project/
+
+# ...even if they are in subdirectories
+!*/ 
