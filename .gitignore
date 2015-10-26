@@ -3,7 +3,7 @@
 
 # except those
 !.gitignore
-!project/
+!starter-kit-redist-v1.10/project/
 
 # ...even if they are in subdirectories
 !*/ 
