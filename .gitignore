@@ -1,9 +1,6 @@
-# Ignore everything
-*
-
-# except those
-!.gitignore
-!starter-kit-redist-v1.10/project/
-
-# ...even if they are in subdirectories
-!*/ 
+intermediate/
+libs/
+output/
+sandbox/
+epsi-i4.sdf
+epsi-i4.sln
