@@ -1,0 +1,10 @@
+*.opensdf
+*.log
+*.suo
+*.user
+*.obj
+*.tmap
+*.tlog
+*.idb
+*.pdb
+*.DS_Store
