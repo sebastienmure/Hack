@@ -1,18 +1,21 @@
-﻿La génération a démarré 02/11/2015 15:36:59.
-     1>Projet "Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\sandbox\sandbox.vcxproj" sur le nœud 2 (Build cible(s)).
+﻿Build started 02/11/2015 15:55:46.
+     1>Project "D:\TAFF\Hack2\sandbox\sandbox.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\util\include" /I"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\socket\include" /I"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\files\include" /I"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\hash\include" /I"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\core\include" /I"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\pthreads\include" /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D HAS_PTHREAD /D PTW32_STATIC_LIB /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\intermediate\sandbox-Win32-Debug-v140\\" /Fd"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\intermediate\sandbox-Win32-Debug-v140\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt sandbox.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\TAFF\Hack2\libs\util\include /ID:\TAFF\Hack2\libs\socket\include /ID:\TAFF\Hack2\libs\files\include /ID:\TAFF\Hack2\libs\hash\include /ID:\TAFF\Hack2\libs\core\include /ID:\TAFF\Hack2\libs\pthreads\include /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D HAS_PTHREAD /D PTW32_STATIC_LIB /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"D:\TAFF\Hack2\intermediate\sandbox-Win32-Debug-v140\\" /Fd"D:\TAFF\Hack2\intermediate\sandbox-Win32-Debug-v140\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt sandbox.cpp stdafx.cpp
+         stdafx.cpp
          sandbox.cpp
-     1>z:\documents\epsi\hack\starter-kit-redist-v1.10\sandbox\sandbox.cpp(33): warning C4130: '==' : opération logique sur l'adresse d'une constante de chaîne
-     1>z:\documents\epsi\hack\starter-kit-redist-v1.10\sandbox\sandbox.cpp(37): warning C4130: '==' : opération logique sur l'adresse d'une constante de chaîne
-     1>z:\documents\epsi\hack\starter-kit-redist-v1.10\sandbox\sandbox.cpp(41): warning C4130: '==' : opération logique sur l'adresse d'une constante de chaîne
-     1>z:\documents\epsi\hack\starter-kit-redist-v1.10\sandbox\sandbox.cpp(45): warning C4130: '==' : opération logique sur l'adresse d'une constante de chaîne
+     1>d:\taff\hack2\sandbox\sandbox.cpp(33): warning C4130: '==': logical operation on address of string constant
+     1>d:\taff\hack2\sandbox\sandbox.cpp(37): warning C4130: '==': logical operation on address of string constant
+     1>d:\taff\hack2\sandbox\sandbox.cpp(41): warning C4130: '==': logical operation on address of string constant
+     1>d:\taff\hack2\sandbox\sandbox.cpp(45): warning C4130: '==': logical operation on address of string constant
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\output\sandbox-Win32-Debug-v140.exe" /INCREMENTAL /NOLOGO /LIBPATH:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\pthreads\lib" /LIBPATH:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\util\lib" /LIBPATH:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\hash\lib" /LIBPATH:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\socket\lib" /LIBPATH:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\files\lib" /LIBPATH:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\libs\core\lib" "libutil-static-Win32-Debug-v140.lib" "libpthread-static-Win32-Debug-v140.lib" "libcore-static-Win32-Debug-v140.lib" "libsocket-static-Win32-Debug-v140.lib" "libhash-static-Win32-Debug-v140.lib" "libfile-static-Win32-Debug-v140.lib" wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\output\sandbox-Win32-Debug-v140.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\output\sandbox-Win32-Debug-v140.lib" /MACHINE:X86 "Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\intermediate\sandbox-Win32-Debug-v140\sandbox.obj"
-         "Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\intermediate\sandbox-Win32-Debug-v140\stdafx.obj"
-         sandbox.vcxproj -> Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\output\sandbox-Win32-Debug-v140.exe
-     1>Génération du projet "Z:\Documents\EPSI\Hack\starter-kit-redist-v1.10\sandbox\sandbox.vcxproj" terminée (Build cible(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TAFF\Hack2\output\sandbox-Win32-Debug-v140.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\TAFF\Hack2\libs\pthreads\lib /LIBPATH:D:\TAFF\Hack2\libs\util\lib /LIBPATH:D:\TAFF\Hack2\libs\hash\lib /LIBPATH:D:\TAFF\Hack2\libs\socket\lib /LIBPATH:D:\TAFF\Hack2\libs\files\lib /LIBPATH:D:\TAFF\Hack2\libs\core\lib "libutil-static-Win32-Debug-v140.lib" "libpthread-static-Win32-Debug-v140.lib" "libcore-static-Win32-Debug-v140.lib" "libsocket-static-Win32-Debug-v140.lib" "libhash-static-Win32-Debug-v140.lib" "libfile-static-Win32-Debug-v140.lib" wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\TAFF\Hack2\output\sandbox-Win32-Debug-v140.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TAFF\Hack2\output\sandbox-Win32-Debug-v140.lib" /MACHINE:X86 "D:\TAFF\Hack2\intermediate\sandbox-Win32-Debug-v140\sandbox.obj"
+         "D:\TAFF\Hack2\intermediate\sandbox-Win32-Debug-v140\stdafx.obj"
+         LINK : D:\TAFF\Hack2\output\sandbox-Win32-Debug-v140.exe not found or not built by the last incremental link; performing full link
+         sandbox.vcxproj -> D:\TAFF\Hack2\output\sandbox-Win32-Debug-v140.exe
+     1>Done Building Project "D:\TAFF\Hack2\sandbox\sandbox.vcxproj" (Build target(s)).
 
-La génération a réussi.
+Build succeeded.
 
-Temps écoulé 00:00:03.23
+Time Elapsed 00:00:02.21
